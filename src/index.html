@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Currency App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="rate">Exchange rate application</div>
+    <div class="loading">Loading...</div>
+    <div class="main hide">
+      <div class="info__warpper">
+        <div class="info" data-info="no">
+            <p class="info__place-holder">Select currency please...</p>
+        </div>
+      </div>
+      <div class="currency-list__wrapper">
+          <button class="currency-list__toggle">SELECT CURRENCY</button>
+          <ul class="currency-list hide" id="currency-list"></ul>
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

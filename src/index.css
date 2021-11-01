@@ -1,0 +1,11 @@
+@import url('./styles/libs/normalize.css');
+@import url('./styles/global.css');
+@import url('./styles/rate.css');
+@import url('./styles/loading.css');
+@import url('./styles/info.css');
+@import url('./styles/currensy-list.css');
+@import url('./styles/main.css');
+
+.hide {
+  display: none;
+}

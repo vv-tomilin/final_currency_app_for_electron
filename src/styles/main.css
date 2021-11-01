@@ -1,0 +1,9 @@
+.main {
+    width: 100%;
+    position: relative;
+    top: 32vh;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
